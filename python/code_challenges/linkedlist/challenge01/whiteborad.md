@@ -1,0 +1,1 @@
+![whiteboard](delete%20function%20(5).jpg)
