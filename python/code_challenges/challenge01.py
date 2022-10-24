@@ -73,8 +73,9 @@ if __name__ == "__main__":
     node4 = Node(3)
     linkedList1.append(node4)
 
-   # linkedList1.printAll()
+    linkedList1.print_node()
     print('list after deleting:7 ')
     linkedList1.delete_node(node2)
-    # print('list after deleting: ')
-   # linkedList1.printAll()
+    print('list after deleting: ')
+    linkedList1.print_node()
+
