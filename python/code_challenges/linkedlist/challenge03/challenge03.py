@@ -1,4 +1,5 @@
 # Write here the code challenge solution
+
 class Node:
     def __init__(self,value):
         self.value = value
@@ -88,7 +89,6 @@ linkedList1.print_node()
 print("------------------------")
 linkedList1.remove_nth_value(2)
 linkedList1.print_node()                        
-
 
 
 
