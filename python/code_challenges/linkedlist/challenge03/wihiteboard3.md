@@ -1,0 +1,1 @@
+![whiteboard3](./remove_nth_function%20(1).jpg)
