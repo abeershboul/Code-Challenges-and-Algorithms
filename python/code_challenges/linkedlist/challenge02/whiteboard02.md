@@ -1,1 +1,1 @@
-![whiteboard02](./middle%20function%20(6).jpg)
+![whiteboard02](./whiteboard02.md)

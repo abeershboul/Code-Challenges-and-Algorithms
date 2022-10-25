@@ -27,10 +27,12 @@ def test_append(creat):
     actual = creat.print_node()
     expected=[12,1,17]
     assert actual ==expected
+
+    
 def test_middleNode(creat):
  # length of linkedlist is odd
 
-    actual=creat.printMiddle()
+    actual=creat.result()
     expected=[1,17]
     assert actual==expected
 
@@ -42,7 +44,7 @@ def test_middleNode2(creat):
     
     creat.append(node5)
    
-    actual= creat.printMiddle()
+    actual= creat.result()
     expected= [17,15]
     assert actual==expected
 

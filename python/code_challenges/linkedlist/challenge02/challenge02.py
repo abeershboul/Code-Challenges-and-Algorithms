@@ -79,7 +79,7 @@ class LinkedList:
 
 
 
-        mid_list=[]
+        
         if self.head != None:
             # find length
             
@@ -95,16 +95,22 @@ class LinkedList:
                 midIdx -= 1
                
             print('The middle is ', temp.value)     
-            while temp.next is not None:
+            
+            return temp
+
+            
+    def result (self):
+        mid_list=[]
+        temp = self.printMiddle() 
+        while temp.next is not None:
                 mid_list.append(temp.value)
               #  print(temp.value)
                 temp = temp.next
-            mid_list.append(temp.value)    
+        mid_list.append(temp.value)    
                  
                 
-            print(mid_list)
-            return mid_list
-            
+        print(mid_list) 
+        return mid_list  
             
               
 
@@ -127,7 +133,8 @@ linkedList1.append(node6)
 linkedList1.print_node()
 print("------------------------")
 
-linkedList1.printMiddle()   
+linkedList1.printMiddle()  
+linkedList1.result() 
 
 
         
