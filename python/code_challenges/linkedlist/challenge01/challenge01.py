@@ -9,6 +9,7 @@ class Node:
 class LinkedList:
     
     '''
+    
     Linked List class :Its class to create  a linked list with and it have 3 method
     1- __init__ methoud that inshlized head virable
     2- append mehoud to add new node to the linked list
