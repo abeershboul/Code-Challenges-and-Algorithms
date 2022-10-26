@@ -6,23 +6,18 @@ class Node:
         self.next = None
 
 class LinkedList:
-    '''
-    class have 4 methoud :
-        1- ineshlized method declare head virable
-        2 - append methoud that receve node as primeter and add it to the linkedlist
-        3 - print node methud that print the node value
-        4- remove_nth_value that recive position of node that will be deleted as parmiter and the declear 2 pointer to loop throw linkedlist
-        and delete  from the end of the list and return its head. 
-        
-    
-    
-    '''
+   
 
     def __init__(self):
+        '''
+        ineshlized method declare head virable
+        '''
         self.head = None
 
     def append(self, node):
-        # function that receive node and add it
+        '''
+        append methoud that receve node as primeter and add it to the linkedlist
+        '''
 
         if self.head is None:
             self.head = node
@@ -34,6 +29,9 @@ class LinkedList:
 
 
     def print_node(self):
+        '''
+        print node methud that print the node value
+        '''
 
         nodes=[]
         if self.head is None:
@@ -48,6 +46,11 @@ class LinkedList:
         return nodes 
 
     def remove_nth_value(self,n):
+
+        '''
+        remove_nth_value that recive position of node that will be deleted as parmiter and the declear 2 pointer to loop throw linkedlist
+        and delete  from the end of the list and return its head
+        '''
         slow = self.head
         fast = self.head
         for i in range(n):
