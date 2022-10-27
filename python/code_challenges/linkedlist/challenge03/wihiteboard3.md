@@ -1,1 +1,1 @@
-![whiteboard3](./remove_nth_function%20(1).jpg)
+![whiteboard3](./remove_%20function%20(2).jpg)
