@@ -1,1 +1,1 @@
-![img](./STAKANDQUQUE.jpg)
+![img](./STACK.jpg)
