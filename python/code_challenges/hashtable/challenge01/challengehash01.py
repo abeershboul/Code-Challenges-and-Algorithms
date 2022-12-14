@@ -10,7 +10,7 @@ def Target(root,k):
       function that takes a Binary Search tree and an integer as a parameter. 
       Return True if Binary search tree has two elements that their summation is the given integer.
     '''
-    values = []
+    values = set()
     def Two_Sum_BST(node):
         if not node:
             return False
@@ -18,7 +18,7 @@ def Target(root,k):
         if y in values:
             return True
         else:
-            values.append(node.val)
+            values.add(node.val)
         return Two_Sum_BST(node.left) or Two_Sum_BST(node.right)
     
     return Two_Sum_BST(root)
