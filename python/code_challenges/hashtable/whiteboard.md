@@ -1,1 +1,1 @@
-![img](./Hash%20table.jpg)
+![img](./challenge01/Hash%20table%20(2).jpg)
