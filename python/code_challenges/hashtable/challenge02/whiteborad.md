@@ -6,4 +6,4 @@
 * looping through splited word 
 * check if the  frequncy of word in the  dic >1 return it else return  "No Repetition"
 
-![img](./Hash%20table%20(4).jpg)
+![img](./Hash%20table%20(5).jpg)
