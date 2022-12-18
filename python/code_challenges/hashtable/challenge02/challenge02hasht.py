@@ -1,4 +1,4 @@
-# Write here the code challenge solution
+# # Write here the code challenge solution
 from collections import Counter
 def repeated_Word(s):
     """
@@ -18,4 +18,4 @@ def repeated_Word(s):
     return 'No Repetition'
 
 print(repeated_Word('wellcome to hashtable'))
-print(repeated_Word('hashtable wellcome to hashtable'))  
+print(repeated_Word('hashtable wellcome to hashtable')) 
