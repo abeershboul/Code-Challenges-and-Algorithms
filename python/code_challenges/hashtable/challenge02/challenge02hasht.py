@@ -1,4 +1,4 @@
-# Write here the code challenge solution
+# # Write here the code challenge solution
 from collections import Counter
 def repeated_Word(s):
     """
@@ -7,15 +7,15 @@ def repeated_Word(s):
 
 
     splited=s.split(' ')
-    dict = Counter(splited)    
+    dict = Counter(splited)
+    
     
     for word in splited:
-        if  dict[word]>1:
+        if word in dict:
             return word
         else:
-            return 'No Repetition'
-            
-    
+            dict.add(word)
+    return 'No Repetition'
 
 print(repeated_Word('wellcome to hashtable'))
-print(repeated_Word('hashtable wellcome to hashtable'))  
+print(repeated_Word('hashtable wellcome to hashtable')) 
