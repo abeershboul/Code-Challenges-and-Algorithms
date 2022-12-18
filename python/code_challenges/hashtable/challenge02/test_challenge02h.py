@@ -1,6 +1,6 @@
 # Write your test here
 import pytest
-from challenge02h import repeated_Word
+from .challenge02hasht import repeated_Word
 
 def test_Repeated_word1():
     actual= repeated_Word('wellcom to hashtable')
